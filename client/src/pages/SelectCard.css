@@ -1,0 +1,118 @@
+h1.msg {
+	text-align: center;
+	color: #3e4444;
+	letter-spacing: 3px;
+	font-size: 25px;
+}
+
+div.creditCards {
+	text-align: center;
+	padding: 10px 10px;
+}
+
+div.backButton {
+	padding: 10px 10px;
+	display: flex;
+	float: left;
+}
+
+div.homeButton {
+	padding: 10px 20px;
+	display: flex;
+	float: right;
+}
+
+.title_selectCard {
+	font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(from 180deg at 50% 50%, rgba(0, 73, 119, 0) 0deg,
+					 rgba(0, 73, 119, 0.401042) 144.37deg, #004977 360deg), 
+	 			conic-gradient(from 180deg at 50% 50%, #D03027 0deg, rgba(208, 48, 39, 0) 360deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-top:  40px;
+	margin-bottom: 10px;
+    /* text-fill-color: transparent; */
+}
+/* container box for four cards*/
+.cards_container{
+	/* background-color: azure; */
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	padding: 10px 100px;
+	width: 1440px;
+    margin: auto;
+	margin-top: 20px;
+    overflow: hidden;
+}
+.cards_container ul{
+	justify-content: center;
+    margin: 0px;
+}
+.cards_container ul li{
+    float:left;
+    list-style: none;
+    width:37%;
+    height:250px;
+    margin :20px 0px 20px 55px; 
+    box-sizing: border-box;
+}
+
+/* for each card images */
+.card_Quicksilver{
+	background: url(../images/quicksilver.jpg);
+}
+.card_savor{
+	position:relative;
+	background: url(../images/savor.jpg);
+}
+.card_venture{
+	position:relative;
+	background: url(../images/venture.jpg);
+}
+.card_ventureX{
+	position:relative;
+	background: url(../images/venturex.jpg);
+}
+.card_Quicksilver, .card_savor, .card_venture, .card_ventureX{
+	width: 288px;
+	height: 181.14px;
+	border-radius: 10px;
+    margin-top: 20px;
+	margin-bottom: 10px;
+    display: inline-block;
+}
+
+/* container for each card */
+.card_button{
+	width: 400px;
+	display: flex;
+	/* background-color: white; */
+	align-items: center;
+    flex-direction: column;
+    justify-content: center;
+	color:black;
+}
+.card_button:hover{
+	transition: 0.5s;
+	/* background-color: rgb(125, 115, 115); */
+	color: rgb(54, 50, 82);
+}
+.card_button:hover .card_Quicksilver, 
+.card_button:hover .card_savor,
+.card_button:hover .card_venture,
+.card_button:hover .card_ventureX{
+	transition: .7s;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

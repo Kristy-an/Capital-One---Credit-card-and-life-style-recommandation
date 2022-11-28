@@ -1,0 +1,193 @@
+.Header {
+    /* Header */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 8px;
+
+    position: absolute;
+    width: 1440px;
+    height: 122px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+
+
+    /* Capital One Credit Card Recommendation */
+
+    width: 1376px;
+    height: 58px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    text-align: center;
+
+    background: conic-gradient(from 180deg at 50% 50%, rgba(0, 73, 119, 0) 0deg, rgba(0, 73, 119, 0.401042) 144.37deg, #004977 360deg), conic-gradient(from 180deg at 50% 50%, #D03027 0deg, rgba(208, 48, 39, 0) 360deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+}
+
+.New_User_Button {
+    /* For new users */
+
+    cursor: pointer;
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+    gap: 8px;
+
+    width: 350px;
+    height: 350px;
+
+    background: rgba(208, 48, 39, 0.9);
+    /* GRAYS / DARKGRAY */
+    border: 2px solid #A9A9A9;
+    border-radius: 50px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+
+
+    /* Ellipse 1 */
+
+    box-sizing: border-box;
+
+    width: 200px;
+    height: 200px;
+
+    background: url("./assets/images/new_user.png"), #D9D9D9;
+    border: 1px solid #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.New_User_Button:hover {
+    background-color: darkgray;
+}
+
+.Existed_User_button {
+    /* For new users */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+    gap: 8px;
+
+    width: 350px;
+    height: 350px;
+
+    background: rgba(0, 73, 119, 0.9);
+    /* GRAYS / DARKGRAY */
+    border: 2px solid #A9A9A9;
+    border-radius: 50px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+
+
+    /* Ellipse 1 */
+
+    box-sizing: border-box;
+
+    width: 200px;
+    height: 200px;
+
+    background: url("./assets/images/existed_user.jpg"), #D9D9D9;
+    border: 1px solid #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+/*This is the CSS style for "Click the one match for you!"*/
+.Existed_User_button:hover {
+    background-color: darkgray;
+}
+
+.Friendly_Reminder_Message {
+ /* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 32px;
+gap: 8px;
+
+position: absolute;
+width: 1440px;
+height: 103px;
+left: 0px;
+top: 186px;
+
+background: #FFFFFF;
+
+
+/* Page title */
+
+width: 1376px;
+height: 39px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}

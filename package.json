@@ -1,0 +1,27 @@
+{
+	"name": "capital_one_c1x_project",
+	"version": "1.0.0",
+	"description": "Capstone Project with Capital One to help picking and using C1 Credit Cards.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node backend/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vsagar215/Capital_One_C1X_Project.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/vsagar215/Capital_One_C1X_Project/issues"
+	},
+	"homepage": "https://github.com/vsagar215/Capital_One_C1X_Project#readme",
+	"dependencies": {
+		"bootstrap": "^5.2.2",
+		"express": "^4.18.2",
+		"react-bootstrap": "^2.5.0",
+		"yelp-fusion": "^3.0.0"
+	}
+}

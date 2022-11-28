@@ -1,0 +1,77 @@
+.layout_Wrapper {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Font CSS from .descriptionLayout */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+/* this covers two buttons (back and confrim) */
+.buttons_container{
+  display: flex;
+  justify-content: center;
+  width: 1344px;
+  height: 50px;
+  flex-direction: row;
+  gap: 50%;
+}
+/* layout for buttons: back, confrim, home */
+.button_layout{
+  display: flex;
+  width: 152px;
+  height: 64px; 
+  background: #FFFFFF;
+  border: 2px solid #004977;
+  border-radius: 20px;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 4px;
+
+  /* Font from figma */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #004977;
+}
+
+.answers{
+  display: flex;
+  align-items: center;
+}
+
+.answers2{
+  display: flex;
+  align-items: center;
+}
+/* Containers for questions */
+.questionBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  gap: 8px;
+  font-weight: 550;
+  width: 1344px;
+  height: 103px;
+
+  background: #FFFFFF;
+}
+/* */
+.answerLayout {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  width: 1440px;
+  height: 410px;
+    /* padding: 16px 152px;
+  gap: 32px; */
+}

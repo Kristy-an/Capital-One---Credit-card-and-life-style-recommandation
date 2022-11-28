@@ -1,0 +1,19 @@
+.navBar{
+    margin:auto;
+    text-align:center;
+}
+.navLinks{
+    display:inline;
+}
+.navImg{
+    height: 48px;
+    width: 109px;
+}
+.navLinks div{
+    display:inline;
+    padding-left: 40px;
+    text-align:center;
+    font-family: Optimist,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 62px;
+}

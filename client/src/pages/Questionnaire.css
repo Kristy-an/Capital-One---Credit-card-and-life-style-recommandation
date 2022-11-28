@@ -1,0 +1,19 @@
+.title_QuestionPage {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(from 180deg at 50% 50%, rgba(0, 73, 119, 0) 0deg, rgba(0, 73, 119, 0.401042) 144.37deg, #004977 360deg), conic-gradient(from 180deg at 50% 50%, #D03027 0deg, rgba(208, 48, 39, 0) 360deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-top:  40px;
+    /* text-fill-color: transparent; */
+}

@@ -1,0 +1,16 @@
+/* Recommendation Page Styling */
+.cardImg {
+    display: unset !important;
+    flex-direction: unset !important;
+    justify-content: unset !important;
+    align-items: unset !important;
+    margin: 0px !important;
+    gap: 0 !important;
+    width: unset !important;
+    height: unset !important;
+    border: 0px solid !important;
+}
+.cardTitle {
+    color: #004977;
+    text-decoration: underline;
+}

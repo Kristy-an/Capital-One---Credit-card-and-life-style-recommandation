@@ -1,0 +1,137 @@
+
+a:link { text-decoration: none; }
+.title_HomePage{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(from 180deg at 50% 50%, rgba(0, 73, 119, 0) 0deg, rgba(0, 73, 119, 0.401042) 144.37deg, #004977 360deg), conic-gradient(from 180deg at 50% 50%, #D03027 0deg, rgba(208, 48, 39, 0) 360deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+}
+/* layout for entire page */
+.layout1 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 64px;
+    /* gap: 48px; */
+}
+/* layout for user type cards */
+.layout2 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 64px;
+    gap: 48px;
+
+    /* position: relative; */
+    width: 1440px;
+    height: 691px;
+    left: 0px;
+    top: 135px;
+
+    background: #FFFFFF;
+}
+
+/* 1 Column that wraps the picture and the button and stuff.
+ should have 2 column, 1 for new users and 1 for card holders.*/
+.customer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    margin: 20px;
+    width: 632px;
+    height: 430px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(108, 108, 108, 0.4);
+    border-radius: 30px;
+}
+/* group hover effects
+    These allows the whole card have hover effects */
+.customer:hover{
+    transition: 0.5s;
+    box-shadow: 0 8px 17px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #fff;
+    -moz-box-shadow: 0 8px 17px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 8px 17px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.customer:hover .image1{
+    transition: 0.5s;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.customer:hover .image2{
+    transition: 0.5s;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.customer:hover .customer-card-new{
+    transition: 0.7s;
+    background: #3a42a1;   
+    color: white;
+}
+.customer:hover .customer-card-have{
+    transition: 0.7s;
+    background: #ba3f3f;   
+    color: white;
+}
+
+/* New customer button and Already have card button */
+.customer-card-new, .customer-card-have {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    gap: 16px;
+
+    width: 632px;
+    height: 78px;
+
+    /* GRAYS / GAINSBORO */
+    background: #DCDCDC;
+    border-radius: 20px;
+
+    /* Text layout*/
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+/* Ellipse 1*/
+.image1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+    display: inline-block;
+    background: url(../images/new_user.jpg);
+}
+
+/* Ellipse 2*/
+.image2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+    display: inline-block;
+    background: url(../images/card_holder.jpg);
+}

@@ -1,0 +1,52 @@
+/* Layout for each Tailored benefit card */
+.benefitCard_layout{
+    width: 585px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 5px 20px 5px rgba(108, 108, 108, 0.4);
+}
+/* Layout for benefit card description */
+.benefitCard_description{
+    width: 303px;
+    height: 280px;
+    display: fixed;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* Text layout*/
+    font-family: 'Lato';
+}
+.benefitCard_description h1{
+    /* For restaraunt.name */
+    font-style: normal;
+    font-weight: 550;
+    font-size: 24px;
+    line-height: 29px;
+    color: #004977;
+}
+.benefitCard_description p{
+    /* For rest of the description text layout */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* Layout for benefit card img */
+.benefitCard_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    width: 250px;
+    height: 250px;
+    
+    /* background color for checking the img size*/
+    background-color: beige; 
+}
